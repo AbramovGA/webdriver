@@ -34,7 +34,7 @@ public class BaseTest {
 
 
     @AfterMethod
-    public void afterMethod(ITestResult testResult){
+    public void afterMethod(ITestResult testResult) {
         System.out.println(String.format("after method: %s, status: %s",
                 testResult.getName(),
                 testResult.isSuccess()));

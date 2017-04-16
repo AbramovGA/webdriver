@@ -1,6 +1,6 @@
 package com.spbstu.webdriver;
 
-import org.junit.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 

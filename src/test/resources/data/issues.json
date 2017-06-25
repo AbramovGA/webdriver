@@ -1,0 +1,31 @@
+{
+
+    "category": "[All Projects] General",
+
+    "reproducibility": "always",
+
+    "severity": "block",
+
+    "priority": "urgent",
+
+    "platform" : "platform",
+
+    "os": "os",
+
+    "osVersion": "osVersion",
+
+    "reporter": "tester1",
+
+    "assignedTo": "dev1",
+
+    "summary": "theme [0-9]{5}",
+
+    "description": "description [0-9]{5}",
+
+    "stepsToReproduce": "reproduce steps [0-9]{5}",
+
+    "additionalInformation": "additional information [0-9]{5}",
+
+    "status": "assigned (dev1)"
+
+}

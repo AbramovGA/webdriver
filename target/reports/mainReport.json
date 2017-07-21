@@ -1,0 +1,350 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3646231070,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "bug report scenario",
+        "description": "",
+        "id": "bug;bug-report-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 136814843,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2472777082,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "login as \"tester1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tester1",
+                  "offset": 10
+                }
+              ],
+              "location": "MyStepdefs.loginAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 590535988,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on \u003cReport Issue\u003e button",
+            "match": {
+              "location": "MyStepdefs.createIssue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3431979806,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "fill the form",
+            "match": {
+              "location": "MyStepdefs.fillForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 529816579,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on \u003cSubmit Issue\u003e button",
+            "match": {
+              "location": "MyStepdefs.submitIssue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 705589249,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "go to view issues page",
+            "match": {
+              "location": "MyStepdefs.viewIssues()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 431911156,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "check for issue report",
+            "match": {
+              "location": "MyStepdefs.reportCreated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 798802334,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "logout",
+            "match": {
+              "location": "MyStepdefs.logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1377221090,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "login as \"dev1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dev1",
+                  "offset": 10
+                }
+              ],
+              "location": "MyStepdefs.loginAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 690770335,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "go to view issues page",
+            "match": {
+              "location": "MyStepdefs.viewIssues()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294193358,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "check for issue report",
+            "match": {
+              "location": "MyStepdefs.reportCreated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 710306602,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "open bug page",
+            "match": {
+              "location": "MyStepdefs.openBug()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1200903347,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "check all fields",
+            "match": {
+              "location": "MyStepdefs.checkAllFields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1602654887,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "mark the bug as \"resolved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "resolved",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepdefs.markBug(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540794124,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "logout",
+            "match": {
+              "location": "MyStepdefs.logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 951388194,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "login as \"lead1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lead1",
+                  "offset": 10
+                }
+              ],
+              "location": "MyStepdefs.loginAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 535392032,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "go to view issues page",
+            "match": {
+              "location": "MyStepdefs.viewIssues()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 305429923,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "check for issue report",
+            "match": {
+              "location": "MyStepdefs.reportCreated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 629951786,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open bug page",
+            "match": {
+              "location": "MyStepdefs.openBug()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008966507,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "mark the bug as \"closed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "closed",
+                  "offset": 17
+                }
+              ],
+              "location": "MyStepdefs.markBug(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527307761,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "go to view issues page",
+            "match": {
+              "location": "MyStepdefs.viewIssues()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1180322434,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "show closed issues",
+            "match": {
+              "location": "MyStepdefs.showClosed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224190178,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "check for issue report",
+            "match": {
+              "location": "MyStepdefs.reportCreated()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 488254954,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "logout",
+            "match": {
+              "location": "MyStepdefs.logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Bug",
+    "description": "",
+    "id": "bug",
+    "keyword": "Feature",
+    "uri": "MantisTest.feature"
+  }
+]
